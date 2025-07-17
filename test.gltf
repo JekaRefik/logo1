@@ -39,13 +39,10 @@
 			"doubleSided":true,
 			"name":"Material.001",
 			"pbrMetallicRoughness":{
-				"baseColorFactor":[
-					0.021758709102869034,
-					0.021758709102869034,
-					0.021758709102869034,
-					1
-				],
-				"metallicFactor":0.6692913174629211,
+				"baseColorTexture":{
+					"index":0
+				},
+				"metallicFactor":0,
 				"roughnessFactor":0.4291338622570038
 			}
 		}
@@ -79,11 +76,24 @@
 			]
 		}
 	],
+	"textures":[
+		{
+			"sampler":0,
+			"source":0
+		}
+	],
+	"images":[
+		{
+			"mimeType":"image/png",
+			"name":"texture",
+			"uri":"textures/texture.png"
+		}
+	],
 	"accessors":[
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":197,
+			"count":1410,
 			"max":[
 				0.2899658679962158,
 				0.25312963128089905,
@@ -91,7 +101,7 @@
 			],
 			"min":[
 				-0.2899658679962158,
-				-0.25312963128089905,
+				-0.25314128398895264,
 				-0.25405269861221313
 			],
 			"type":"VEC3"
@@ -99,19 +109,19 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":197,
+			"count":1410,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":197,
+			"count":1410,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5123,
-			"count":426,
+			"count":3024,
 			"type":"SCALAR"
 		},
 		{
@@ -152,56 +162,62 @@
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":2364,
+			"byteLength":16920,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":2364,
-			"byteOffset":2364,
+			"byteLength":16920,
+			"byteOffset":16920,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1576,
-			"byteOffset":4728,
+			"byteLength":11280,
+			"byteOffset":33840,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":852,
-			"byteOffset":6304,
+			"byteLength":6048,
+			"byteOffset":45120,
 			"target":34963
 		},
 		{
 			"buffer":0,
 			"byteLength":48,
-			"byteOffset":7156,
+			"byteOffset":51168,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":48,
-			"byteOffset":7204,
+			"byteOffset":51216,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":32,
-			"byteOffset":7252,
+			"byteOffset":51264,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":12,
-			"byteOffset":7284,
+			"byteOffset":51296,
 			"target":34963
+		}
+	],
+	"samplers":[
+		{
+			"magFilter":9729,
+			"minFilter":9987
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":7296,
+			"byteLength":51308,
 			"uri":"test.bin"
 		}
 	]
